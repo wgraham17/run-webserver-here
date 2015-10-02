@@ -10,7 +10,7 @@
         public WebServerApplicationContext()
         {
             this.notifyIcon = new NotifyIcon();
-            this.notifyIcon.Icon = Properties.Resources.icon;
+            this.notifyIcon.Icon = Properties.Resources.LogoIcon;
             this.notifyIcon.Text = "Web Server Running";
 
             var exitMenuItem = new MenuItem("E&xit");

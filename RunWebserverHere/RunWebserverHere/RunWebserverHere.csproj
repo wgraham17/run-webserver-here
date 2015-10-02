@@ -106,8 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="InstallUninstallForm.resx">
+      <DependentUpon>InstallUninstallForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

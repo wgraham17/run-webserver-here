@@ -63,10 +63,20 @@ namespace RunWebserverHere.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon icon {
+        internal static System.Drawing.Icon LogoIcon {
             get {
-                object obj = ResourceManager.GetObject("icon", resourceCulture);
+                object obj = ResourceManager.GetObject("LogoIcon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LogoImage {
+            get {
+                object obj = ResourceManager.GetObject("LogoImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
